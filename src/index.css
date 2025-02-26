@@ -5,6 +5,10 @@
 
 @theme {
   --font-primary: "Nunito", "serif";
-  --color-background: linear-gradient(90deg, #540654 0%, #cc0d85 50%, #540654 100%);
+  --color-background: linear-gradient(90deg, #540654, #cc0d85 50%, #540654 100%, #00d4ff 0);
+  
+}
 
+.bg-custom-gradient {
+  background: var(--color-background);
 }
