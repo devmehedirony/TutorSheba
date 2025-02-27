@@ -1,10 +1,13 @@
-import Hero from "../components/Hero";
+import Hero from "../components/Home/Hero";
+import TutorSection from "../components/Home/TutorSection";
+
 
 
 const Home = () => {
   return (
     <div>
-      <Hero/>
+      <Hero />
+      <TutorSection/>
     </div>
   );
 };

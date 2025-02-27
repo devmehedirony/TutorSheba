@@ -7,6 +7,7 @@
   --font-primary: "Open Sans", "serif";
   --color-background: linear-gradient(90deg, #540654, #cc0d85 50%, #540654 100%, #00d4ff 0);
   --color-btn: linear-gradient(90deg, rgb(173, 50, 162), rgb(88, 3, 74));
+  --color-btn2: linear-gradient(-30deg, rgb(108, 42, 140) 50%, rgb(167, 22, 120) 0px);
   
 }
 
@@ -16,4 +17,8 @@
 
 .bg-btn {
   background: var(--color-btn);
+}
+
+.bg-btn2{
+  background: var(--color-btn2);
 }

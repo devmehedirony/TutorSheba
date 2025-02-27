@@ -1,8 +1,9 @@
 import { IoArrowForward, IoLocationSharp } from 'react-icons/io5';
-import img1 from '../assets/img1.svg'
+import img1 from '../../assets/img1.svg'
 import { IoIosSearch } from 'react-icons/io';
 import { motion } from "framer-motion";
 import BtnGroup from './BtnGroup';
+
 
 const Hero = () => {
   return (
