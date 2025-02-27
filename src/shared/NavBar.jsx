@@ -45,8 +45,8 @@ const NavBar = () => {
   </>
 
   return (
-    <div className="bg-custom-gradient">
-      <nav className="container mx-auto flex justify-between items-center">
+    <div className="bg-custom-gradient fixed top-0 left-0 w-full z-50">
+      <nav className="w-[1350px] h-[58px] mx-auto flex justify-between items-center">
 
         {/* logo */}
         <div>
